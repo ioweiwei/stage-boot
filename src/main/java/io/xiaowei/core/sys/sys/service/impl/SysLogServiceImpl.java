@@ -25,6 +25,26 @@ public class SysLogServiceImpl extends BaseService<SysLog> implements ISysLogSer
     private SysLogRepository sysLogRepository;
 
     @Override
+    public SysLog save(SysLog sysLog) {
+        return sysLogRepository.save(sysLog);
+    }
+
+    @Override
+    public SysLog update(SysLog sysLog) {
+        return null;
+    }
+
+    @Override
+    public List<SysLog> findAll() {
+        return null;
+    }
+
+    @Override
+    public SysLog findById(Long id) {
+        return null;
+    }
+
+    @Override
     public SimplePage<SysLog> findPage(PageRequest pageRequest) {
         return null;
     }
