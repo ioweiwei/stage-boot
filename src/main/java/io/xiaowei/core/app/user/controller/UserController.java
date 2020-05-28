@@ -3,7 +3,6 @@ package io.xiaowei.core.app.user.controller;
 import io.swagger.annotations.ApiOperation;
 import io.xiaowei.core.app.user.service.IUserService;
 import io.xiaowei.global.annoation.Login;
-import io.xiaowei.global.annoation.LoginUser;
 import io.xiaowei.global.http.HttpResult;
 import io.xiaowei.global.http.ResultGenerator;
 import org.springframework.web.bind.annotation.GetMapping;
